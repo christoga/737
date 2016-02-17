@@ -1,7 +1,8 @@
 #!/usr/bin/python
 import os
+__author__ == 'Andre Christoga'
 
-def main():		
+def main():			
 	input = raw_input("What's the city? ")
 
 	# Input action
