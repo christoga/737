@@ -1,28 +1,20 @@
 #!/usr/bin/python
+import os
 
-def main():
-	# City	
-	tokyo = 6
-	seoul = 5.5
-	singapore = 1.5
-	angkara = 9
-	taipe = 4
-
-	# Input and the times number
-	times = 0.375
+def main():		
 	input = raw_input("What's the city? ")
 
 	# Input action
 	if input == "tokyo":			
-		print "The time is ", tokyo * times ,"hour"
+		os.system("city/tokyo.py")
 	if input == "seoul":			
-		print "The time is ", seoul * times ,"hour"
+		os.system("city/seoul.py")
 	if input == "singapore":			
-		print "The time is ", singapore * times ,"hour"	
+		os.system("city/singapore.py")
 	if input == "angkara":			
-		print "The time is ", angkara * times ,"hour"
+		os.system("city/angkara.py")
 	if input == "taipe":			
-		print "The time is ", taipe * times ,"hour"
+		os.system("city/taipe.py")
 
 if __name__ == '__main__':
 	main()
