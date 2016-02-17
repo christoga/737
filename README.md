@@ -1,4 +1,4 @@
-# Airplane-time
+# 737
 This script came when my nephew rash to the living room to find a ruler,
 Guess what do he do with the ruler?
 
@@ -17,4 +17,4 @@ Available city :
 I am still disoriented to turn these hours into decimals number, please be patient😂
 
 ## License
-This script is licensed under MIT.
+737 is licensed under MIT.
