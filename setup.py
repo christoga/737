@@ -10,7 +10,7 @@ def main():
 
 	# Input action
 	if input == "tokyo":			
-		print "The time is ", tokyo * times
+		print "The time is ", tokyo * times ,"hour"
 
 if __name__ == '__main__':
 	main()
