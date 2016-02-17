@@ -6,6 +6,7 @@ def main():
 	seoul = 5.5
 	singapore = 1.5
 	angkara = 9
+	taipe = 4
 
 	# Input and the times number
 	times = 0.375
@@ -18,8 +19,10 @@ def main():
 		print "The time is ", seoul * times ,"hour"
 	if input == "singapore":			
 		print "The time is ", singapore * times ,"hour"	
-
 	if input == "angkara":			
-		print "The time is ", angkara * times ,"hour"		
+		print "The time is ", angkara * times ,"hour"
+	if input == "taipe":			
+		print "The time is ", taipe * times ,"hour"
+
 if __name__ == '__main__':
 	main()
