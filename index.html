@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,10 +6,69 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap-theme.css">	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-pink.min.css">	
 </head>
-<body>
-	
-	<!-- JS -->
-	<script src="js/bootstrap.min.js"></script>
+<body>	
+	<style>
+		a {
+			text-decoration: none !important;	
+		}
+	</style>
+	<center>
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+            mdl-layout--fixed-tabs">
+	  <header class="mdl-layout__header">
+	    <div class="mdl-layout__header-row">
+	      <!-- Title -->
+	      <span class="mdl-layout-title">737-Time</span>
+	    </div>	    
+	  </header>
+	  <div class="mdl-layout__drawer">
+	    <span class="mdl-layout-title">737-Time</span>
+	  </div>
+	  <main class="mdl-layout__content">
+	    <section class="mdl-layout__tab-panel is-active">
+	      <div class="page-content">
+	      		<br>
+				<button class="mdl-button mdl-js-button mdl-button--primary" onclick="tokyo()">
+					Tokyo
+				</button><br>
+				<button class="mdl-button mdl-js-button mdl-button--primary" onclick="seoul()">
+					Seoul
+				</button><br>
+				<button class="mdl-button mdl-js-button mdl-button--primary" onclick="singapore()">
+					Singapore
+				</button><br>
+				<button class="mdl-button mdl-js-button mdl-button--primary" onclick="angkara()">
+					Angkara
+				</button><br>
+				<button class="mdl-button mdl-js-button mdl-button--primary" onclick="taipe()">
+					Taipe
+				</button>			
+	      </div>
+	    </section>	    
+	  </main>
+	</div>			
+	</center>	
+	<script>
+		function tokyo() {
+			alert("The times is 2:25 minute");
+		}	
+		function seoul() {
+			alert("The times is 2:07 minute");
+		}		
+		function singapore() {
+			alert("The times is 57 minute");
+		}	
+		function angkara() {
+			alert("The times is 3:38 minute");
+		}	
+		function taipe() {
+			alert("The times is 1:05 minute");
+		}	
+	</script>
+	<!-- JS -->		
+	<script defer src="https://code.getmdl.io/1.1.1/material.min.js"></script>
 </body>
 </html>
