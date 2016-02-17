@@ -3,6 +3,9 @@ import os
 __author__ == 'Andre Christoga'
 
 def main():			
+	'''
+	Airplane Time
+	'''
 	input = raw_input("What's the city? ")
 
 	# Input action
