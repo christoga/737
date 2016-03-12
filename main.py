@@ -9,8 +9,7 @@ def main():
 	input = raw_input("What's the city? ")
 
 	# Input action
-	if input == "tokyo":
-		# os.system("city/tokyo.py")
+	if input == "tokyo":		
 		tokyo()
 	elif input == "seoul":
 		seoul()
