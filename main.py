@@ -10,17 +10,43 @@ def main():
 
 	# Input action
 	if input == "tokyo":
-		os.system("city/tokyo.py")
+		# os.system("city/tokyo.py")
+		tokyo()
 	elif input == "seoul":
-		os.system("city/seoul.py")
+		seoul()
 	elif input == "singapore":
-		os.system("city/singapore.py")
+		singapore()
 	elif input == "angkara":
-		os.system("city/angkara.py")
+		angkara()
 	elif input == "taipe":
-		os.system("city/taipe.py")
+		taipe()
 	else:
-		print "The city you are looking for is not available"	
+		print "The city you are looking for is not available"
+
+def tokyo():
+	main = 0.375
+	count = 6
+	print "The time is", count * main ,"hour"
+
+def seoul():
+	main = 0.375
+	count = 5.5
+	print "The time is", count * main ,"hour"
+
+def singapore():
+	main = 0.375
+	count = 1.5
+	print "The time is", count * main ,"hour"
+
+def angkara():
+	main = 0.375
+	count = 4
+	print "The time is", count * main ,"hour"
+
+def taipe():
+	main = 0.375
+	count = 1.5
+	print "The time is", count * main ,"hour"
 
 if __name__ == '__main__':
 	main()
