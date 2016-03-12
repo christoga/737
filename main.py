@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import os
+import time
 __author__ = 'Andre Christoga'
 
 def main():
@@ -27,26 +27,42 @@ def tokyo():
 	main = 0.375
 	count = 6
 	print "The time is", count * main ,"hour"
+	exit()
 
 def seoul():
 	main = 0.375
 	count = 5.5
 	print "The time is", count * main ,"hour"
+	exit()
 
 def singapore():
 	main = 0.375
 	count = 1.5
 	print "The time is", count * main ,"hour"
+	exit()
 
 def angkara():
 	main = 0.375
 	count = 4
 	print "The time is", count * main ,"hour"
+	exit()
 
 def taipe():
 	main = 0.375
 	count = 1.5
 	print "The time is", count * main ,"hour"
+	exit()
+
+def exit():
+    input = raw_input("Exit? Yes[y] or No[n] ")
+    if input == 'y':
+        print 'Exiting program...'
+        time.sleep(2)
+    elif input == 'n':
+        main()
+    else:
+        print 'Please answer the question'
+        exit()
 
 if __name__ == '__main__':
 	main()
