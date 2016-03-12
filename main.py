@@ -9,16 +9,16 @@ def main():
 	input = raw_input("What's the city? ")
 
 	# Input action
-	if input == "tokyo":			
+	if input == "tokyo":
 		os.system("city/tokyo.py")
-	else if input == "seoul":
+	elif input == "seoul":
 		os.system("city/seoul.py")
-	else if input == "singapore":
+	elif input == "singapore":
 		os.system("city/singapore.py")
-	else if input == "angkara":
+	elif input == "angkara":
 		os.system("city/angkara.py")
-	else if input == "taipe":
-		os.system("city/taipe.py")
+	elif input == "taipe":
+		os.system("city/taipe.py")	
 
 if __name__ == '__main__':
 	main()
