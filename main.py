@@ -18,7 +18,9 @@ def main():
 	elif input == "angkara":
 		os.system("city/angkara.py")
 	elif input == "taipe":
-		os.system("city/taipe.py")	
+		os.system("city/taipe.py")
+	else:
+		print "The city you are looking for is not available"	
 
 if __name__ == '__main__':
 	main()
