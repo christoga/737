@@ -2,7 +2,7 @@
 import os
 __author__ = 'Andre Christoga'
 
-def main():			
+def main():
 	'''
 	Airplane Time
 	'''
@@ -11,13 +11,13 @@ def main():
 	# Input action
 	if input == "tokyo":			
 		os.system("city/tokyo.py")
-	if input == "seoul":			
+	else if input == "seoul":
 		os.system("city/seoul.py")
-	if input == "singapore":			
+	else if input == "singapore":
 		os.system("city/singapore.py")
-	if input == "angkara":			
+	else if input == "angkara":
 		os.system("city/angkara.py")
-	if input == "taipe":			
+	else if input == "taipe":
 		os.system("city/taipe.py")
 
 if __name__ == '__main__':
