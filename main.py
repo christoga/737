@@ -9,7 +9,7 @@ def main():
 	input = raw_input("What's the city? ")
 
 	# Input action
-	if input == "tokyo":		
+	if input == "tokyo":
 		tokyo()
 	elif input == "seoul":
 		seoul()
@@ -23,30 +23,45 @@ def main():
 		print "The city you are looking for is not available"
 
 def tokyo():
+	'''
+	Tokyo city
+	'''
 	main = 0.375
 	count = 6
 	print "The time is", count * main ,"hour"
 	exit()
 
 def seoul():
+	'''
+	Seoul city
+	'''
 	main = 0.375
 	count = 5.5
 	print "The time is", count * main ,"hour"
 	exit()
 
 def singapore():
+	'''
+	Singapore nation
+	'''
 	main = 0.375
 	count = 1.5
 	print "The time is", count * main ,"hour"
 	exit()
 
 def angkara():
+	'''
+	Angkara city
+	'''
 	main = 0.375
 	count = 4
 	print "The time is", count * main ,"hour"
 	exit()
 
 def taipe():
+	'''
+	Taipei city
+	'''
 	main = 0.375
 	count = 1.5
 	print "The time is", count * main ,"hour"
