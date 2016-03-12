@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import os
-__author__ == 'Andre Christoga'
+__author__ = 'Andre Christoga'
 
 def main():			
 	'''
