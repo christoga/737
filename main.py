@@ -21,6 +21,7 @@ def main():
 		taipe()
 	else:
 		print "The city you are looking for is not available"
+		main()
 
 def tokyo():
 	'''
