@@ -24,12 +24,18 @@ def main():
 		main()
 
 def count(name, time):
+	'''
+	Count the time
+	'''
 	main = 0.375
 	count = time
 	print "The time to", name, "is", main * time, "hour"
 	exit()
 
 def exit():
+	'''
+	Exit the program
+	'''
     input = raw_input("Exit? Yes[y] or No[n] ")
     if input == 'y':
         print 'Exiting program...'
