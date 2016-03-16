@@ -10,62 +10,23 @@ def main():
 
 	# Input action
 	if input == "tokyo":
-		tokyo()
+		count("Tokyo", 6)
 	elif input == "seoul":
-		seoul()
+		count("Seoul", 5.5)
 	elif input == "singapore":
-		singapore()
+		count("Singapore", 1.5)
 	elif input == "angkara":
-		angkara()
+		count("Angkara", 4)
 	elif input == "taipe":
-		taipe()
+		count("Taipe", 1.5)
 	else:
 		print "The city you are looking for is not available"
 		main()
 
-def tokyo():
-	'''
-	Tokyo city
-	'''
+def count(name, time):
 	main = 0.375
-	count = 6
-	print "The time is", count * main ,"hour"
-	exit()
-
-def seoul():
-	'''
-	Seoul city
-	'''
-	main = 0.375
-	count = 5.5
-	print "The time is", count * main ,"hour"
-	exit()
-
-def singapore():
-	'''
-	Singapore nation
-	'''
-	main = 0.375
-	count = 1.5
-	print "The time is", count * main ,"hour"
-	exit()
-
-def angkara():
-	'''
-	Angkara city
-	'''
-	main = 0.375
-	count = 4
-	print "The time is", count * main ,"hour"
-	exit()
-
-def taipe():
-	'''
-	Taipei city
-	'''
-	main = 0.375
-	count = 1.5
-	print "The time is", count * main ,"hour"
+	count = time
+	print "The time to", name, "is", main * time, "hour"
 	exit()
 
 def exit():
