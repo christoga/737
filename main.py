@@ -32,8 +32,8 @@ def count(name, time):
 	print "The time to", name, "is", main * time, "hour"
 	exit()
 
-def exit():	
-    input = raw_input("Exit? Yes[y] or No[n] ")
+def exit():
+    input = raw_input("\nExit? Yes[y] or No[n] ")
     if input == 'y':
         print 'Exiting program...'
         time.sleep(2)
